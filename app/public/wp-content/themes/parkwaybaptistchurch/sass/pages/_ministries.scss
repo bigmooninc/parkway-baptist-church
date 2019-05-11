@@ -1,0 +1,16 @@
+.ministries {
+  @include xs {
+    display: flex;
+    flex-direction: column;
+  }
+  @include md {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+  }
+  .ministry-description {
+    p {
+      @apply font-light text-lg mb-10 leading-tight;
+    }
+  }
+}

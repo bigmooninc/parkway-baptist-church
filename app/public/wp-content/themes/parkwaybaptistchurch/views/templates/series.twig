@@ -1,0 +1,38 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+    <section class="relative bg-brand-dark overflow-hidden">
+        <div class="container w-full max-w-xl mx-auto pt-48 pb-32 pl-5 pr-5 md:pl-0 md:pr-0">
+            <h2 class="font-medium text-6xl mb-2 text-white">{{ series.name }}</h2>
+            <p class="font-light text-2xl leading-tight text-white">{{ series.description }}</p>
+        </div>
+        <div class="absolute pin-b pin-l w-full h-48 tear-white">
+            <img src="{{ theme.link }}/images/tear-bl-white.png" alt="" class="absolute pin-b tear-white__left">
+            <img src="{{ theme.link }}/images/tear-br-white.png" alt="" class="absolute pin-b tear-white__right">
+        </div>
+    </section>
+
+    <section>
+        <div class="container w-full max-w-xl mx-auto pt-20 pb-20 pl-5 pr-5 md:pl-0 md:pr-0">
+            <h3 class="font-medium text-4xl mb-5">Sermons in this Series:</h3>
+            {% for sermon in series.posts %}
+                <div class="block md:flex md:flex-row md:justify-between md:items-center pt-10 pb-10 border-b">
+                    <div class="mb-5 md:mb-0">
+                        <h3 class="font-medium text-3xl mb-2">{{ sermon.title }}</h3>
+                        <p class="font-light text-lg">{{ sermon.sermon_date | date('F j, Y') }} | {{ sermon.terms('speaker') | join(', ') }} | {{ sermon.passage }}</p>
+                    </div>
+                    <div>
+                        <a href="{{ sermon.link }}" class="btn btn-red-transparent">Listen Now</a>
+                    </div>
+
+
+                </div>
+
+
+            {% endfor %}
+        </div>
+    </section>
+
+
+{% endblock %}

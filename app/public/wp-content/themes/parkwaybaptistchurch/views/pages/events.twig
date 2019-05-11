@@ -1,0 +1,32 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+    <main>
+        <section class="relative bg-brand-dark overflow-hidden" style="background-image:url({{ post.thumbnail.src }});background-position:center;background-size:cover;">
+            <div class="container w-full max-w-xl mx-auto pt-48 pb-32 pl-5 pr-5 md:pl-0 md:pr-0">
+                <h2 class="font-medium text-mega mb-2 text-white">{{ post.title }}</h2>
+                {#<p class="font-light text-xl leading-tight">Click on a sermon series to see all sermons in that series.</p>#}
+            </div>
+            <div class="absolute pin-b pin-l w-full h-48 tear-white">
+                <img src="{{ theme.link }}/images/tear-bl-white.png" alt="" class="absolute pin-b tear-white__left">
+                <img src="{{ theme.link }}/images/tear-br-white.png" alt="" class="absolute pin-b tear-white__right">
+            </div>
+        </section>
+        <section>
+            <div class="container w-full max-w-xl mx-auto pt-20 pb-20 pl-5 pr-5 md:pl-0 md:pr-0 flex">
+                <div class="w-full md:w-3/5 mr-10">
+                    <h3 class="font-medium text-4xl mb-2">Upcoming Events</h3>
+                    <div class="body-content">
+                        {{ post.content }}
+                    </div>
+                    <a href="{{ post.events_calendar }}" class="btn btn-red-transparent" download>Download Calendar</a>
+                </div>
+                <div class="hidden md:flex-1">
+                    <img src="{{ post.get_field('events_calendar_image') }}" class="w-full" />
+                </div>
+            </div>
+        </section>
+    </main>
+
+{% endblock %}

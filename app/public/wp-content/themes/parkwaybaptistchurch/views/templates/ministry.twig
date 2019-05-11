@@ -1,0 +1,44 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+    <main>
+        <section class="relative bg-brand-dark overflow-hidden" style="background-image:url({{ post.thumbnail.src }});background-position:center;background-size:cover;">
+            <div class="container w-full max-w-xl mx-auto pt-48 pb-32 pl-5 pr-5 md:pl-0 md:pr-0">
+                <h2 class="font-medium text-megax2 mb-2 text-white">{{ post.title }}</h2>
+            {#<p class="font-light text-xl leading-tight">Click on a sermon series to see all sermons in that series.</p>#}
+            </div>
+            <div class="absolute pin-b pin-l w-full h-48 tear-white">
+                <img src="{{ theme.link }}/images/tear-bl-white.png" alt="" class="absolute pin-b tear-white__left">
+                <img src="{{ theme.link }}/images/tear-br-white.png" alt="" class="absolute pin-b tear-white__right">
+            </div>
+        </section>
+        <section>
+            <div class="container w-full max-w-xl mx-auto pb-10 pt-20 pl-5 pr-5 md:pl-0 md:pr-0 border-b border-gray-light">
+                <div class="body-content">
+                    {{ post.content }}
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container w-full max-w-xl mx-auto pb-20 pt-10 pl-5 pr-5 md:pl-0 md:pr-0">
+                <h2 class="font-medium text-4xl text-center mb-10">Ministry Contacts</h2>
+                <div class="w-full inline-flex justify-center flex-wrap">
+                {% for leader in post.terms('ministry_leaders') %}
+                    <div class="px-8 flex flex-col justify-start items-center mb-10">
+                        {%  if leader.get_field('leader_image') %}
+                            <img src="{{ leader.get_field('leader_image') }}" alt="{{ leader.name }}" class="rounded-full w-32"/>
+                        {% else %}
+                        No image
+                        {% endif %}
+                        <p class="font-medium text-xl mt-4 mb-1 text-center">{{ leader.name }}</p>
+                        <p class="mb-1 text-center">{{ leader.leader_title }}</p>
+                        <p class="text-center">{{ leader.leader_email }}</p>
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+        </section>
+    </main>
+
+{% endblock %}

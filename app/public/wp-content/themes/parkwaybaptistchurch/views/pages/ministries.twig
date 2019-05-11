@@ -1,0 +1,44 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+    <main>
+        <section class="relative bg-brand-dark overflow-hidden" style="background-image:url({{ post.thumbnail.src }});background-position:center;background-size:cover;">
+            <div class="container w-full max-w-xl mx-auto pt-48 pb-32 pl-5 pr-5 md:pl-0 md:pr-0">
+                <h2 class="font-medium text-mega mb-2 text-white">Ministries</h2>
+                {#<p class="font-light text-xl leading-tight text-white">Click on a sermon series to see all sermons in that series.</p>#}
+            </div>
+            <div class="absolute pin-b pin-l w-full h-48 tear-white">
+                <img src="{{ theme.link }}/images/tear-bl-white.png" alt="" class="absolute pin-b tear-white__left">
+                <img src="{{ theme.link }}/images/tear-br-white.png" alt="" class="absolute pin-b tear-white__right">
+            </div>
+        </section>
+        <section>
+            <div class="container w-full max-w-xl mx-auto pt-20 pb-20 pl-5 pr-5 md:pl-0 md:pr-0">
+                <div class="ministries">
+                    {% for ministry in ministries %}
+                        <div class="relative bg-gray-lightest hover:shadow-md transition-slow mb-10 md:mb-0 border-b-4 border-light">
+                            <div class="relative h-64 md:h-48 bg-grey-lighter" style="background-image:url({{ ministry.thumbnail.src }});background-position:center;background-size:cover;">
+
+                            </div>
+                            <div class="relative px-4 py-4">
+                                <h4 class="font-medium text-2xl mb-2">{{ ministry.title }}</h4>
+                                <div class="ministry-description">
+                                    {{ ministry.content | truncate(20) }}
+                                </div>
+
+                            </div>
+                            <div class="absolute pin-b pin-l px-4 py-4">
+                                <a href="{{ ministry.link }}" class="font-medium text-lg text-red hover:text-red-light transition-slow">Learn More</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+
+
+        </section>
+    </main>
+
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+    <main>
+        <section class="relative bg-brand-dark overflow-hidden" style="background-image:url();background-size:cover;background-position:center;">
+            <div class="container w-full max-w-xl mx-auto pt-48 pb-32 pl-5 pr-5 md:pl-0 md:pr-0">
+                <h2 class="font-medium text-mega mb-2 text-white">Sermons by Series</h2>
+                {#<p class="font-light text-2xl leading-tight text-white">Click on a sermon series to see all sermons in that series.</p>#}
+            </div>
+            <div class="absolute pin-b pin-l w-full h-48 tear-white">
+                <img src="{{ theme.link }}/images/tear-bl-white.png" alt="" class="absolute pin-b tear-white__left">
+                <img src="{{ theme.link }}/images/tear-br-white.png" alt="" class="absolute pin-b tear-white__right">
+            </div>
+        </section>
+
+        <section>
+            <div class="container w-full max-w-xl mx-auto pt-20 pb-20 pl-5 pr-5 md:pl-0 md:pr-0">
+                {% for term in series %}
+                    <div class="flex flex-col md:flex-row pb-10 mb-10" style="border-bottom:1px solid #ddd;">
+                        <div class="flex-1 mb-6 md:mb-0">
+                            <img src="{{ term.get_field('series_image') }}" alt="{{ term.name }}" class="w-full" />
+                        </div>
+                        <div class="w-full md:w-3/5 ml-0 md:ml-10">
+                            <h3 class="font-medium text-4xl mb-2">{{ term.name }}</h3>
+                            <p class="font-light text-xl leading-tight mb-6">{{ term.description }}</p>
+                            <a href="{{ term.link }}" class="btn btn-red-transparent">View Series</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+
+
+
+
+    {#{% for term in series %}#}
+        {#{{ term.name }}<br>#}
+        {#{{ term.description }}<br>#}
+
+        {#{% for post in term.posts %}#}
+            {#{{ post.title }}#}
+            {#{% endfor %}#}
+        {#<hr>#}
+    {#{% endfor %}#}
+
+{% endblock %}

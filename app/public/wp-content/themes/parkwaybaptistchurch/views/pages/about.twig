@@ -1,0 +1,61 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+    <main>
+        <section class="relative bg-brand-dark overflow-hidden" style="background-image:url({{ post.thumbnail.src }});background-position:center;background-size:cover;">
+            <div class="container w-full max-w-xl mx-auto pt-48 pb-32 pl-5 pr-5 md:pl-0 md:pr-0">
+                <h2 class="font-medium text-mega mb-2 text-white">{{ post.title }}</h2>
+                {#<p class="font-light text-xl leading-tight">Click on a sermon series to see all sermons in that series.</p>#}
+            </div>
+            <div class="absolute pin-b pin-l w-full h-48 tear-white">
+                <img src="{{ theme.link }}/images/tear-bl-white.png" alt="" class="absolute pin-b tear-white__left">
+                <img src="{{ theme.link }}/images/tear-br-white.png" alt="" class="absolute pin-b tear-white__right">
+            </div>
+        </section>
+        <section>
+            <div class="container w-full max-w-xl mx-auto pt-20 pb-10 pl-5 pr-5 md:pl-0 md:pr-0">
+                <h2 class="font-medium text-4xl mb-2">Who are we?</h2>
+                <div class="body-content mb-5">
+                    {{ post.who_we_are }}
+                </div>
+                <a href="/about/staff" class="text-red hover:text-red-light text-xl">View our staff</a>
+            </div>
+        </section>
+        <section class="bg-brand-dark">
+            <div class="container w-full max-w-xl mx-auto pt-20 pb-20 flex flex-col md:flex-row pl-5 pr-5 md:pl-0 md:pr-0">
+                <div class="mb-10 md:mb-0">
+                    <img src="{{ theme.link }}/images/argile_smith.jpg" class="rounded-full" />
+                </div>
+                <div class="w-full md:w-3/4 ml-0 md:ml-20">
+                    <h3 class="font-medium text-yellow-lightest text-3xl mb-2">Dr. Argile Smith</h3>
+                    <span class="font-normal text-yellow-lightest text-xl">Senior Pastor</span>
+                    <p class="font-light text-yellow-lightest text-xl mt-2 leading-tight mb-6">Argile Smith gave his life to Christ on August 22, 1971, and he was baptized at Juniper Grove Baptist Church, Poplarville, MS. He graduated from William Carey College (B.A.) and New Orleans Baptist Theological Seminary (M.Div., Ph.D.) The Lord called him to ministry in 1972, and he has served Him as a theological educator and a Baptist college administrator since 1993. However, he has been involved in pastoral ministry since 1977. His greatest treasures are Connie, his little bride for 43 years, and their three grown sons, three remarkable daughters-in-law, and four fairly perfect grandchildren.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container w-full max-w-xl mx-auto pt-10 pb-20 pl-5 pr-5 md:pl-0 md:pr-0">
+                <h2 class="font-medium text-4xl mb-2 mt-10">What is our mission?</h2>
+                <div class="body-content mb-5">
+                    {{ post.our_mission }}
+                </div>
+
+                <h2 class="font-medium text-4xl mb-2 mt-10">What do we believe</h2>
+                <div class="body-content mb-5">
+                    {{ post.what_we_believe }}
+                </div>
+
+                <a href="" class="text-red hover:text-red-light text-xl">Baptist Faith & Message</a>
+
+                <h2 class="font-medium text-4xl mb-2 mt-10">Come visit us.</h2>
+                <div class="body-content mb-5">
+                    {{ post.visit_us }}
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+{% endblock %}

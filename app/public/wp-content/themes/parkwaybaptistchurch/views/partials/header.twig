@@ -1,0 +1,47 @@
+<header class="z-40">
+    <div class="fixed bg-white pin-t pin-l container w-screen max-w-full flex flex-wrap justify-between items-center px-5 py-4 shadow-md z-20">
+        <a href="{{ site.link }}"><img class="w-64 h-auto" src="{{ theme.link }}/images/ParkwayLogo3.png" /></a>
+        <div class="flex justify-end items-center">
+            <nav class="hidden md:flex">
+                <ul class="flex list-reset relative">
+                    {% for item in menu.items %}
+                        <li class="ml-6"><a href="{{ item.link }}" class="text-black hover:text-red transition-slow">{{ item.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            <button class="relative flex md:hidden w-8 h-6 ml-4 sm:ml-12 transition header__trigger">
+                <span id="menu__hamburger" class="absolute pin-t pin-l flex w-full h-full">
+                    {{ source('images/hamburger.svg') }}
+                </span>
+                <span id="menu__close" class="absolute pin-t pin-l flex w-full h-full opacity-0">
+                    {{ source('images/close.svg') }}
+                </span>
+            </button>
+            {#<div class="absolute z-50 md:hidden bg-red w-full h-full pin-b pin-t pin-l">#}
+                {#<ul class="flex flex-col list-reset relative">#}
+                    {#{% for item in menu.items %}#}
+                        {#<li><a href="{{ item.link }}">{{ item.title }}</a></li>#}
+                    {#{% endfor %}#}
+                {#</ul>#}
+            {#</div>#}
+        </div>
+    </div>
+</header>
+
+{# HIDDEN NAV #}
+<nav class="fixed pin-t pin-l w-screen max-w-full h-full min-h-screen bg-red-darkest z-30 transition nav">
+    <div class="relative px-5 py-8 flex justify-end">
+        <button class="relative flex md:hidden w-8 h-6 ml-4 sm:ml-12 transition header__trigger">
+            <span id="menu__close" class="absolute pin-t pin-l flex w-full h-full opacity-1 text-yellow-lightest">
+                    {{ source('images/close.svg') }}
+                </span>
+        </button>
+    </div>
+    <ul class="list-reset">
+        {% for item in menu.items %}
+            <li class="font-light text-4xl text-center mb-8"><a href="{{ item.link }}" class="text-yellow-lightest hover:text-yellow-lightest">{{ item }}</a></li>
+        {% endfor %}
+    </ul>
+
+</nav>
+

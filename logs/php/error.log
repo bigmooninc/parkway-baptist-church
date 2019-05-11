@@ -1,0 +1,69 @@
+[07-May-2019 04:26:38 UTC] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endfor" tag (expecting closing tag for the "block" tag defined near line 4). in /app/public/wp-content/themes/parkwaybaptistchurch/views/templates/series.twig:30
+Stack trace:
+#0 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/TokenParser/Block.php(40): Twig_Parser->subparse(Array, true)
+#1 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#2 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Parser.php(103): Twig_Parser->subparse(NULL, false)
+#3 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Environment.php(447): Twig_Environment- in /app/public/wp-content/themes/parkwaybaptistchurch/views/templates/series.twig on line 30
+[07-May-2019 04:49:26 UTC] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected token "punctuation" of value "(" ("name" expected). in /app/public/wp-content/themes/parkwaybaptistchurch/views/templates/series.twig:19
+Stack trace:
+#0 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(472): Twig_TokenStream->expect(5)
+#1 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(466): Twig_ExpressionParser->parseFilterExpressionRaw(Object(Twig_Node_Expression_GetAttr))
+#2 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(320): Twig_ExpressionParser->parseFilterExpression(Object(Twig_Node_Expression_GetAttr))
+#3 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(212): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_GetAttr))
+#4 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpressio in /app/public/wp-content/themes/parkwaybaptistchurch/views/templates/series.twig on line 19
+[07-May-2019 04:58:39 UTC] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "format_date" filter. in /app/public/wp-content/themes/parkwaybaptistchurch/views/templates/series.twig:19
+Stack trace:
+#0 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(481): Twig_ExpressionParser->getFilterNodeClass('format_date', 19)
+#1 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(466): Twig_ExpressionParser->parseFilterExpressionRaw(Object(Twig_Node_Expression_GetAttr))
+#2 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(320): Twig_ExpressionParser->parseFilterExpression(Object(Twig_Node_Expression_GetAttr))
+#3 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(212): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_GetAttr))
+#4 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpressio in /app/public/wp-content/themes/parkwaybaptistchurch/views/templates/series.twig on line 19
+[07-May-2019 05:00:33 UTC] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unknown "format_date" filter. in /app/public/wp-content/themes/parkwaybaptistchurch/views/templates/series.twig:19
+Stack trace:
+#0 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(481): Twig_ExpressionParser->getFilterNodeClass('format_date', 19)
+#1 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(466): Twig_ExpressionParser->parseFilterExpressionRaw(Object(Twig_Node_Expression_GetAttr))
+#2 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(320): Twig_ExpressionParser->parseFilterExpression(Object(Twig_Node_Expression_GetAttr))
+#3 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(212): Twig_ExpressionParser->parsePostfixExpression(Object(Twig_Node_Expression_GetAttr))
+#4 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpressio in /app/public/wp-content/themes/parkwaybaptistchurch/views/templates/series.twig on line 19
+[07-May-2019 05:26:47 UTC] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected ")". in /app/public/wp-content/themes/parkwaybaptistchurch/views/templates/sermon.twig:8
+Stack trace:
+#0 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Lexer.php(227): Twig_Lexer->lexExpression()
+#1 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Lexer.php(126): Twig_Lexer->lexVar()
+#2 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Environment.php(653): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Environment.php(750): Twig_Environment->tokenize(Object(Twig_Source))
+#4 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#5 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Environment.php(362): Twig_Environment->loadTemplate('templates/sermo...')
+#6 /app/public/wp-content/plugins/timber-library/lib/Loader.php(74): in /app/public/wp-content/themes/parkwaybaptistchurch/views/templates/sermon.twig on line 8
+[07-May-2019 20:46:46 UTC] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected token "punctuation" of value "." ("operator" expected with value "in"). in /app/public/wp-content/themes/parkwaybaptistchurch/views/pages/ministries.twig:22
+Stack trace:
+#0 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/TokenParser/For.php(33): Twig_TokenStream->expect(8, 'in')
+#1 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Parser.php(190): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/TokenParser/For.php(42): Twig_Parser->subparse(Array)
+#3 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Parser.php(190): Twig_TokenParser_For->parse(Object(Twig_Token))
+#4 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/TokenParser/Block.php(40): Twig_Parser->subparse(Array, true)
+#5 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_T in /app/public/wp-content/themes/parkwaybaptistchurch/views/pages/ministries.twig on line 22
+[07-May-2019 21:23:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/parkwaybaptistchurch/single-ministries.php on line 6
+[07-May-2019 21:24:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/parkwaybaptistchurch/single-ministries.php on line 6
+[07-May-2019 21:24:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/parkwaybaptistchurch/single-ministries.php on line 6
+[07-May-2019 21:24:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/parkwaybaptistchurch/single-ministries.php on line 6
+[07-May-2019 21:24:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/parkwaybaptistchurch/single-ministries.php on line 6
+[07-May-2019 21:25:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/parkwaybaptistchurch/single-ministries.php on line 6
+[07-May-2019 21:25:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/parkwaybaptistchurch/single-ministries.php on line 6
+[07-May-2019 21:28:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/parkwaybaptistchurch/single-ministries.php on line 6
+[07-May-2019 21:29:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/parkwaybaptistchurch/single-ministries.php on line 6
+[07-May-2019 21:30:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/parkwaybaptistchurch/single-ministries.php on line 6
+[07-May-2019 21:30:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/parkwaybaptistchurch/single-ministries.php on line 6
+[07-May-2019 21:33:26 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/parkwaybaptistchurch/single-ministries.php on line 18
+[09-May-2019 12:47:34 UTC] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected "endblock" tag (expecting closing tag for the "for" tag defined near line 89). in /app/public/wp-content/themes/parkwaybaptistchurch/views/pages/home.twig:106
+Stack trace:
+#0 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/TokenParser/For.php(42): Twig_Parser->subparse(Array)
+#1 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Parser.php(190): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/TokenParser/Block.php(40): Twig_Parser->subparse(Array, true)
+#3 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#4 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Parser.php(103): Twig_Parser->subparse(NULL, false)
+#5 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStrea in /app/public/wp-content/themes/parkwaybaptistchurch/views/pages/home.twig on line 106
+[11-May-2019 15:04:37 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[11-May-2019 15:04:37 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[11-May-2019 15:04:37 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569

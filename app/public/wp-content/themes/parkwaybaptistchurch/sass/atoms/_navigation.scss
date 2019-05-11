@@ -1,0 +1,7 @@
+.nav {
+  @apply invisible opacity-0;
+
+  &--open {
+    @apply visible opacity-100;
+  }
+}

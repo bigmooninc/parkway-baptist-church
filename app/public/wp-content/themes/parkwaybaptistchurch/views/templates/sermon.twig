@@ -1,0 +1,49 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+    <main>
+        <section class="relative bg-brand-dark overflow-hidden">
+            <div class="container w-full max-w-xl mx-auto pt-48 pb-32 pl-5 pr-5 md:pl-0 md:pr-0">
+                <h2 class="font-medium text-6xl mb-2 text-white"><span class="text-3xl">Sermon Series:</span><br/>{{ post.terms('series') | join(', ') }}</h2>
+                {#<p class="font-light text-xl leading-tight">Click on a sermon series to see all sermons in that series.</p>#}
+            </div>
+            <div class="absolute pin-b pin-l w-full h-48 tear-white">
+                <img src="{{ theme.link }}/images/tear-bl-white.png" alt="" class="absolute pin-b tear-white__left">
+                <img src="{{ theme.link }}/images/tear-br-white.png" alt="" class="absolute pin-b tear-white__right">
+            </div>
+        </section>
+        <section>
+            <div class="container w-full max-w-xl mx-auto pt-20 pb-20 border-b pl-5 pr-5 md:pl-0 md:pr-0">
+                <h2 class="font-medium text-6xl mb-2">{{ post.title }}</h2>
+                <p class="font-light text-xl mb-10">{{ post.sermon_date | date('F j, Y') }} | {{ post.terms('speaker') | join(', ') }} | {{ post.passage }}</p>
+                <audio controls preload="metadata" style=" width:100%;">
+                    <source src="{{ post.get_field('audio') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="font-medium text-xl mt-10"><a href="{{ post.get_field('audio') }}" class="text-red hover:text-red-light" download>Download Now</a></p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container w-full max-w-xl mx-auto pt-20 pb-20 pl-5 pr-5 md:pl-0 md:pr-0">
+                <h3 class="font-medium text-4xl mb-5">Other sermons in this series:</h3>
+                {% for sermon in other_sermons %}
+                    <div class="block md:flex md:flex-row md:justify-between md:items-center pt-10 pb-10 border-b">
+                        <div class="mb-5 md:mb-0">
+                            <h3 class="font-medium text-3xl mb-2">{{ sermon.title }}</h3>
+                            <p class="font-light text-lg">{{ sermon.sermon_date | date('F j, Y') }} | {{ sermon.terms('speaker') | join(', ') }} | {{ sermon.passage }}</p>
+                        </div>
+
+                        <a href="{{ sermon.link }}" class="btn btn-red-transparent">Listen Now</a>
+                    </div>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,11 @@
+[04-May-2019 23:08:02] NOTICE: fpm is running, pid 14
+[04-May-2019 23:08:02] NOTICE: ready to handle connections
+[04-May-2019 23:28:01] NOTICE: Terminating ...
+[04-May-2019 23:28:01] NOTICE: exiting, bye-bye!
+[04-May-2019 23:53:55] NOTICE: fpm is running, pid 25
+[04-May-2019 23:53:55] NOTICE: ready to handle connections
+[08-May-2019 14:20:32] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[11-May-2019 14:24:17] NOTICE: Terminating ...
+[11-May-2019 14:24:17] NOTICE: exiting, bye-bye!
+[11-May-2019 15:04:18] NOTICE: fpm is running, pid 25
+[11-May-2019 15:04:18] NOTICE: ready to handle connections

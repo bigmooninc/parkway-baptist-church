@@ -1,0 +1,39 @@
+.btn {
+  @apply inline-flex font-medium text-base leading-none pt-3 pb-3 px-6 transition-slow rounded-full border;
+
+  &:hover {
+    @apply text-white;
+  }
+}
+
+.btn-red {
+  @apply text-white bg-red border-red;
+
+  &:hover {
+    @apply bg-red-dark border-red-dark;
+  }
+}
+
+.btn-red-transparent {
+  @apply text-red bg-transparent border-red;
+
+  &:hover {
+    @apply text-white bg-red;
+  }
+}
+
+.btn-brand {
+  @apply text-white bg-brand border-brand;
+
+  &:hover {
+    @apply bg-brand-dark border-brand-dark;
+  }
+}
+
+.btn-cta {
+  @apply text-white bg-cta border-cta;
+
+  &:hover {
+    @apply bg-cta-dark border-cta-dark;
+  }
+}
