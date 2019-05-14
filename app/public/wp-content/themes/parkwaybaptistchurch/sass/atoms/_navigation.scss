@@ -5,3 +5,20 @@
     @apply visible opacity-100;
   }
 }
+
+.nav--dropdown {
+  ul {
+    opacity: 0;
+    visibility: hidden;
+    left: -50%;
+    right: -50%;
+    min-width: 150px;
+    @apply shadow-md;
+  }
+  &:hover {
+    ul {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

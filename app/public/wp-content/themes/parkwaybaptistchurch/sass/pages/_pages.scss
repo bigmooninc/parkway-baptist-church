@@ -6,4 +6,17 @@
   p {
     @apply font-light text-xl leading-tight mb-4;
   }
+  ul {
+    @apply mb-4;
+  }
+  li {
+    @apply font-light text-xl leading-tight;
+  }
+
+  blockquote {
+    @apply ml-10 pt-2 pb-2 border-l-4 border-gray-light pl-5 mb-4 mt-4;
+    p {
+      @apply text-2xl font-normal mb-0;
+    }
+  }
 }

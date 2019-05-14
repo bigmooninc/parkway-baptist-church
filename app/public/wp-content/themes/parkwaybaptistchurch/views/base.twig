@@ -17,17 +17,26 @@
     {% include 'partials/footer.twig' %}
 {% endblock %}
 
-<script
-        src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous"></script>
+
+
 
 {% block javascripts %}
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
     <script>
 
         $('.header__trigger').click(e => {
            $('.nav').toggleClass('nav--open');
         });
+
+        AOS.init();
 
     </script>
 {% endblock %}

@@ -6,7 +6,7 @@
         <!-- HERO -->
         <section class="bg-brand-dark relative overflow-hidden" style="background-image:url({{ post.get_field('hero_image') }});background-position:center;background-size:cover;">
             <div class="absolute pin-b pin-l w-full h-full bg-black opacity-25"></div>
-            <div class="relative container w-full max-w-xl mx-auto flex flex-col justify-center items-center pt-48 pb-32 pl-5 pr-5 md:pl-0 md:pr-0">
+            <div class="relative container w-full max-w-xl mx-auto flex flex-col justify-center items-center pt-64 pb-48 pl-5 pr-5 md:pl-0 md:pr-0">
                 <h1 class="font-medium text-mega text-center text-white">Welcome to Parkway</h1>
                 <p class="font-medium text-md text-center text-white uppercase mt-4 mb-4">Baptist Church - Biloxi, MS</p>
                 <p class="font-normal text-2xl text-center text-white mb-4">Join us for worship this Sunday at 10:30AM. We meet at 16372 Old Woolmarket Road, and we are saving a parking spot for you.</p>
@@ -16,7 +16,7 @@
                             Latest Sermon
                         </a>
                     {% endfor %}
-                    <a href="#" class="btn btn-red z-10">Visitor Info</a>
+                    <a href="/about#visitor-info" class="btn btn-red z-10">Visitor Info</a>
                 </div>
             </div>
             <div class="absolute pin-b pin-l w-full h-48 tear-white">
@@ -26,7 +26,7 @@
         </section>
 
         <section>
-            <div class="container w-full max-w-xl mx-auto flex flex-col md:flex-row pt-20 md:pt-32 pb-24 pl-5 pr-5 md:pl-0 md:pr-0">
+            <div class="container w-full max-w-xl mx-auto flex flex-col md:flex-row pt-20 md:pt-32 pb-24 pl-5 pr-5 md:pl-0 md:pr-0" data-aos="fade-in">
                 <div class="flex flex-col block md:flex-1 mb-10 md:mb-0 mr-0 md:mr-10">
                     <h3 class="font-medium text-4xl mb-2">We are a church serving God by loving people.</h3>
                     <p class="font-light text-xl mb-4 leading-tight">Parkway Baptist Church is a Southern Baptist congregation devoted to living out the Great Commission and the Greatest Commandment as a healthy expression of the Body of Christ.</p>
@@ -45,7 +45,7 @@
             <div class="container w-full max-w-xl mx-auto pt-20 pb-32 pl-5 pr-5 md:pl-0 md:pr-0">
                 <h2 class="font-medium text-4xl text-center mb-10 text-brand-darkest">What's happening at Parkway?</h2>
                 <div class="ctas">
-                    <div class="relative bg-white hover:shadow-md transition-slow mb-10 md:mb-0">
+                    <div class="relative bg-white hover:shadow-md transition-slow mb-10 md:mb-0" data-aos="fade-up" data-aos-duration="500">
                         <div class="relative h-64 md:h-48 bg-grey-lighter" style="background-image:url({{ post.get_field('cta_1_image') }});background-position:center;background-size:cover;">
 
                         </div>
@@ -57,7 +57,7 @@
                             <a href="{{ post.get_field('cta_1_button_link') }}" class="font-medium text-lg text-red hover:text-red-light transition-slow">{{ post.get_field('cta_1_button_text') }}</a>
                         </div>
                     </div>
-                    <div class="relative bg-white hover:shadow-md transition-slow mb-10 md:mb-0">
+                    <div class="relative bg-white hover:shadow-md transition-slow mb-10 md:mb-0" data-aos="fade-up" data-aos-duration="1500">
                         <div class="relative h-64 md:h-48 bg-grey-lighter" style="background-image:url({{ post.get_field('cta_2_image') }});background-position:center;background-size:cover;">
 
                         </div>
@@ -69,7 +69,7 @@
                             <a href="{{ post.get_field('cta_2_button_link') }}" class="font-medium text-lg text-red hover:text-red-light transition-slow">{{ post.get_field('cta_2_button_text') }}</a>
                         </div>
                     </div>
-                    <div class="relative bg-white hover:shadow-md transition-slow mb-10 md:mb-0">
+                    <div class="relative bg-white hover:shadow-md transition-slow mb-10 md:mb-0" data-aos="fade-up" data-aos-duration="2500">
                         <div class="relative h-64 md:h-48 bg-grey-lighter" style="background-image:url({{ post.get_field('cta_3_image') }});background-position:center;background-size:cover;">
 
                         </div>
@@ -87,7 +87,7 @@
         </section>
 
         <section>
-            <div class="container w-full max-w-xl mx-auto pt-24 pb-24 flex pl-5 pr-5 md:pl-0 md:pr-5 flex-col md:flex-row">
+            <div class="container w-full max-w-xl mx-auto pt-24 pb-24 flex pl-5 pr-5 md:pl-0 md:pr-5 flex-col md:flex-row" data-aos="fade-in">
                 <div class="flex-1 mb-10 md:mb-0">
                     {% for series in current_series %}
                         <img src="{{ series.get_field('series_image') }}" class="w-full" />
