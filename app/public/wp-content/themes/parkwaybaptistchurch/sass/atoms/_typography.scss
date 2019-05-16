@@ -36,10 +36,10 @@ strong {
 }
 
 a {
-  @apply text-purple no-underline;
+  @apply text-red no-underline;
 
   &:hover {
-    @apply text-purple-darker;
+    @apply text-red-darker;
   }
 }
 
