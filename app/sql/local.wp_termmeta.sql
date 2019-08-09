@@ -22,5 +22,5 @@ INSERT INTO `wp_termmeta` VALUES
 (18,12,"_leader_title","field_5cd1fbe075b21"),
 (19,12,"leader_email","email@church.org"),
 (20,12,"_leader_email","field_5cd1fbea75b22"),
-(21,12,"leader_image","62"),
+(21,12,"leader_image","109"),
 (22,12,"_leader_image","field_5cd1fbf375b23");

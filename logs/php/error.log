@@ -67,3 +67,12 @@ Stack trace:
 [11-May-2019 15:04:37 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
 [11-May-2019 15:04:37 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
 [11-May-2019 15:04:37 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[12-May-2019 15:25:18 UTC] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in /app/public/wp-content/themes/parkwaybaptistchurch/views/partials/header.twig:47
+Stack trace:
+#0 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/TokenParser/For.php(43): Twig_TokenStream->next()
+#1 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Parser.php(190): Twig_TokenParser_For->parse(Object(Twig_Token))
+#2 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Parser.php(103): Twig_Parser->subparse(NULL, false)
+#3 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /app/public/wp-content/plugins/timber-library/vendor/twig/twig/lib/Twig/Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /app/public/wp-content/plugins/timber in /app/public/wp-content/themes/parkwaybaptistchurch/views/partials/header.twig on line 47
