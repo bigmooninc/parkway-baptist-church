@@ -9,7 +9,7 @@
             <div class="relative container w-full max-w-xl mx-auto flex flex-col justify-center items-center pt-64 pb-48 pl-5 pr-5 md:pl-0 md:pr-0">
                 <h1 class="font-medium text-mega text-center text-white">Welcome to Parkway</h1>
                 <p class="font-medium text-md text-center text-white uppercase mt-4 mb-4">Baptist Church - Biloxi, MS</p>
-                <p class="font-normal text-2xl text-center text-white mb-4">Join us for worship this Sunday at 10:30AM. We meet at 16372 Old Woolmarket Road, and we are saving a parking spot for you.</p>
+                <p class="font-normal text-2xl text-center text-white mb-4">{{ post.meta('hero_text') }}</p>
                 <div class="relative flex justify-center items-center mt-4">
                     {% for sermon in recent_sermon %}
                         <a href="{{ sermon.link }}" class="btn btn-red mr-4 z-10">
