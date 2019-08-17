@@ -2,12 +2,14 @@
 
 $series_list = Timber::get_terms('series', array('orderby' => 'ID', 'order' => 'DESC'));
 
-$args = array(
-  'number' => 1,
-    'orderby' => 'ID',
-    'order' => 'DESC'
-);
-$current_series = Timber::get_terms( $args );
+//$args = array(
+//  'number' => 1,
+//    'orderby' => 'ID',
+//    'order' => 'DESC'
+//);
+$current_series = Timber::get_terms( 'series', array(
+    'number' => 1
+) );
 
 //foreach($series as $sermon_series) {
 //    $member_group_query = Timber::get_posts(

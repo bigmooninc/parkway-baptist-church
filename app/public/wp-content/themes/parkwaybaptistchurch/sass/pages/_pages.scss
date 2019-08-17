@@ -19,4 +19,12 @@
       @apply text-2xl font-normal mb-0;
     }
   }
+
+  a, a:visited {
+    @apply text-red;
+  }
+
+  a:hover {
+    @apply underline;
+  }
 }

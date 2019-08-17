@@ -20,10 +20,10 @@
                     <div class="body-content">
                         {{ post.content }}
                     </div>
-                    <a href="{{ post.events_calendar }}" class="btn btn-red-transparent" download>Download Calendar</a>
+                    <a href="{{ post.meta('events_calendar') }}" class="btn btn-red-transparent" download>Download Calendar</a>
                 </div>
-                <div class="hidden md:flex-1">
-                    <img src="{{ post.get_field('events_calendar_image') }}" class="w-full" />
+                <div class="hidden md:flex-1 md:block">
+                    <img src="{{ post.meta('events_calendar_image') }}" class="w-full" />
                 </div>
             </div>
         </section>

@@ -7289,6 +7289,15 @@ a:hover {
   margin-bottom: 0;
 }
 
+.body-content a,
+.body-content a:visited {
+  color: #ad312c;
+}
+
+.body-content a:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 375px) {
   .ctas {
     display: flex;
