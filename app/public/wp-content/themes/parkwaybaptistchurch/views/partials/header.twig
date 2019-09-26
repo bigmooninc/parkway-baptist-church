@@ -2,7 +2,9 @@
     <div class="fixed bg-white pin-t pin-l container w-screen max-w-full flex flex-wrap justify-between items-center px-5 py-4 shadow-md z-20">
         <a href="{{ site.link }}"><img class="w-64 h-auto" src="{{ theme.link }}/images/ParkwayLogo3.png" /></a>
         <div class="flex justify-end items-center">
+            <a href="#" class="btn btn-red">Give Now</a>
             <nav class="relative hidden md:flex">
+
                 <ul class="flex list-reset relative">
                     {% for item in menu.items %}
                         <li class="ml-6 relative nav--dropdown"><a href="{{ item.link }}" class="text-black hover:text-red">{{ item.title }}</a>

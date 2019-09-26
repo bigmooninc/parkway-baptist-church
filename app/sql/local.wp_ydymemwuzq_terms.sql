@@ -5,6 +5,4 @@ INSERT INTO `wp_ydymemwuzq_terms` VALUES
 (1,"Uncategorized","uncategorized",0),
 (2,"Main","main",0),
 (9,"Dr. Argile Smith","dr-argile-smith",0),
-(10,"Aaron Johnson","aaron-johnson",0),
-(11,"Dustin Smith","dustin-smith",0),
-(12,"Abi Johnson","abi-johnson",0);
+(13,"Seeking God","seeking-god",0);
