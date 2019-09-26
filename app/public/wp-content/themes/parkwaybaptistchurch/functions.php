@@ -170,3 +170,15 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+if( function_exists('acf_add_options_page') ) {
+
+    acf_add_options_page();
+
+}
+
+add_filter( 'timber_context', 'parkwaybaptistchurch_timber_context'  );
+
+function parkwaybaptistchurch_timber_context( $context ) {
+    $context['options'] = get_fields('option');
+    return $context;
+}

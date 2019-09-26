@@ -2,147 +2,238 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7581e5e8-7f86-4ff8-b17c-975d971eca46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/async-upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/async-upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/color-picker-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/color-picker-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/color-picker-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/color-picker-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/color-picker.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/color-picker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/color-picker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/color-picker.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/common-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/common-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/common-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/common-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/common.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/common.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/forms-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/forms-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/forms-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/forms-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/forms.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/forms.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/forms.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/install-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/install-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/install-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/install-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/install.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/install.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/install.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/install.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/login-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/login-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/login-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/login-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/css/login.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/css/login.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/custom-background.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/custom-background.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/custom-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/custom-header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/edit-form-blocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/edit-form-blocks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/edit-form-comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/edit-form-comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/edit-tag-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/edit-tag-form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/includes/ajax-actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/includes/ajax-actions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/includes/class-wp-plugins-list-table.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/includes/class-wp-plugins-list-table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/includes/ms.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/includes/ms.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/includes/network.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/includes/network.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/includes/plugin-install.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/includes/plugin-install.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/includes/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/includes/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/install.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/install.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/js/customize-nav-menus.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/js/customize-nav-menus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/js/customize-nav-menus.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/js/customize-nav-menus.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/js/nav-menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/js/nav-menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/js/nav-menu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/js/nav-menu.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/js/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/js/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/js/post.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/js/post.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/js/updates.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/js/updates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/js/updates.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/js/updates.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/maint/repair.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/maint/repair.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/network/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/network/settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/network/site-info.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/network/site-info.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/network/site-new.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/network/site-new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/network/site-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/network/site-settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/network/site-users.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/network/site-users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/network/user-new.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/network/user-new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/options-discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/options-discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/options-general.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/options-general.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/options-media.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/options-media.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/options-permalink.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/options-permalink.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/options-reading.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/options-reading.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/options-writing.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/options-writing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/privacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/privacy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/setup-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/setup-config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/user-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/user-edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-admin/user-new.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-admin/user-new.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/images/Bible.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/pages/sermons.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/pages/sermons.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/acf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/css/acf-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/css/acf-field-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/css/acf-global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/css/acf-input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/font/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/font/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/font/acf.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/font/acf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/font/acf.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/font/acf.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/font/acf.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/font/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/images/acf-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/images/spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/images/spinner@2x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/datepicker/images/ui-bg_highlight-soft_0_ffffff_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/datepicker/images/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/datepicker/images/ui-icons_DDDDDD_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/datepicker/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/datepicker/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/datepicker/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/select2/3/select2-spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/select2/3/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/select2/3/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/select2/3/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/select2/3/select2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/select2/3/select2x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/select2/4/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/select2/4/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/select2/4/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/select2/4/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/select2/4/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/select2/4/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/timepicker/jquery-ui-timepicker-addon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/timepicker/jquery-ui-timepicker-addon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/timepicker/jquery-ui-timepicker-addon.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/inc/timepicker/jquery-ui-timepicker-addon.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/js/acf-field-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/js/acf-field-group.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/js/acf-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/assets/js/acf-input.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-data-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-field-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-field-group-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-form-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-helper-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-hook-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-input-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-meta-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-post-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-user-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/acf-value-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/admin-field-group.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/admin-field-groups.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/admin-notices.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/admin-tools.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/admin-upgrade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/settings-info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/tools/class-acf-admin-tool-export.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/tools/class-acf-admin-tool-import.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/tools/class-acf-admin-tool.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/views/field-group-field-conditional-logic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/views/field-group-field.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/views/field-group-fields.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/views/field-group-locations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/views/field-group-options.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/views/html-admin-page-upgrade-network.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/views/html-admin-page-upgrade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/views/html-admin-tools.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/views/html-location-group.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/views/html-location-rule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/views/html-notice-upgrade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/views/settings-addons.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/admin/views/settings-info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/ajax/class-acf-ajax-check-screen.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/ajax/class-acf-ajax-upgrade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/ajax/class-acf-ajax-user-setting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/ajax/class-acf-ajax.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-helpers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-term.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/class-acf-data.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/compatibility.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/deprecated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-accordion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-button-group.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-checkbox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-color_picker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-date_picker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-date_time_picker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-email.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-file.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-google-map.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-group.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-link.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-message.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-number.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-oembed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-output.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-page_link.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-password.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-post_object.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-radio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-range.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-relationship.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-select.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-separator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-tab.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-taxonomy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-textarea.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-time_picker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-true_false.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-url.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-user.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-wysiwyg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/forms/form-attachment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/forms/form-comment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/forms/form-customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/forms/form-front.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/forms/form-gutenberg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/forms/form-nav-menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/forms/form-post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/forms/form-taxonomy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/forms/form-user.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/forms/form-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/json.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/l10n.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/local-fields.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/local-meta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-attachment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-comment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-current-user-role.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-current-user.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-nav-menu-item.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-nav-menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-page-parent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-page-template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-page-type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-post-category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-post-format.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-post-status.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-post-taxonomy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-post-template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-post-type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-taxonomy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-user-form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-user-role.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/locations/class-acf-location.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/loop.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/media.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/revisions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/third-party.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/updates.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/upgrades.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/walkers/class-acf-walker-nav-menu-edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/walkers/class-acf-walker-taxonomy-field.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/includes/wpml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-ar.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-ar.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-bg_BG.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-bg_BG.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-cs_CZ.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-cs_CZ.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-de_CH.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-de_CH.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-de_DE.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-de_DE.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-de_DE_formal.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-de_DE_formal.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-es_ES.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-es_ES.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-fa_IR.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-fa_IR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-fi.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-fi.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-he_IL.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-he_IL.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-hr_HR.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-hr_HR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-hu_HU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-hu_HU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-id_ID.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-id_ID.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-it_IT.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-it_IT.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-ja.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-ja.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-nb_NO.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-nb_NO.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-nl_NL.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-nl_NL.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-pl_PL.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-pl_PL.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-pt_BR.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-pt_BR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-pt_PT.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-pt_PT.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-ro_RO.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-ro_RO.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-ru_RU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-ru_RU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-sk_SK.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-sk_SK.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-sv_SE.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-sv_SE.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-tr_TR.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-tr_TR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-uk.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-uk.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-zh_CN.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf-zh_CN.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/lang/acf.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/plugins/advanced-custom-fields/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/partials/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/partials/header.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/twentynineteen/sass/blocks/_blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/twentynineteen/sass/blocks/_blocks.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/twentynineteen/style-editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/twentynineteen/style-editor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/twentynineteen/style-editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/twentynineteen/style-editor.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/twentynineteen/style-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/twentynineteen/style-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/twentynineteen/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/twentynineteen/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/twentyseventeen/assets/css/colors-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/twentyseventeen/assets/css/colors-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/twentyseventeen/assets/css/editor-blocks.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/twentyseventeen/assets/css/editor-blocks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/twentyseventeen/inc/color-patterns.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/twentyseventeen/inc/color-patterns.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/twentyseventeen/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/twentyseventeen/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/blocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/blocks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/css/admin-bar-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/css/admin-bar-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/css/admin-bar-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/css/admin-bar-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/css/admin-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/css/admin-bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/css/admin-bar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/css/admin-bar.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/css/buttons-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/css/buttons-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/css/buttons-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/css/buttons-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/css/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/css/buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/css/buttons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/css/buttons.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/css/media-views-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/css/media-views-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/css/media-views-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/css/media-views-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/css/media-views.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/css/media-views.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/css/media-views.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/css/media-views.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/formatting.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/formatting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/js/media-grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/js/media-grid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/js/media-grid.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/js/media-grid.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/js/media-views.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/js/media-views.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/js/media-views.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/js/media-views.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/js/wp-a11y.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/js/wp-a11y.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/js/wp-a11y.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/js/wp-a11y.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/js/wp-sanitize.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/js/wp-sanitize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/js/wp-sanitize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/js/wp-sanitize.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/kses.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/kses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/media-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/media-template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/nav-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/nav-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/pluggable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/pluggable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/post-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/post-template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/script-loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/script-loader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-includes/version.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-includes/version.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/backup.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/backup.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_options.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_options.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_posts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_posts.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_options-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_options-schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_options.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_options.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_postmeta-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_postmeta-schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_postmeta.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_postmeta.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_posts-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_posts-schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_posts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_posts.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_term_relationships.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_term_relationships.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_term_taxonomy-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_term_taxonomy-schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_term_taxonomy.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_term_taxonomy.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_termmeta-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_termmeta-schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_termmeta.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_termmeta.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_terms-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_terms-schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_terms.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_terms.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_usermeta-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_usermeta-schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_usermeta.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.wp_ydymemwuzq_usermeta.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mysql/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mysql/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/nginx/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/nginx/access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/php/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/php/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/php/php-fpm.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/php/php-fpm.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/MailHog-stderr---supervisor-_A_hzT.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/MailHog-stdout---supervisor-5F29UZ.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/mysql-stderr---supervisor-iu2uT6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/mysql-stdout---supervisor-8DYGmB.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/nginx-stderr---supervisor-HyuglA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/nginx-stdout---supervisor-A6aSqg.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/php-fpm-stderr---supervisor-9Kxjy3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/php-fpm-stdout---supervisor-kmn4JJ.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/supervisord.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/supervisor/supervisord.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/varnish-plugins-watcher-stderr---supervisor-mTe5kG.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/varnish-plugins-watcher-stdout---supervisor-W9_Pbr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/varnish-themes-watcher-stderr---supervisor-kX1a_7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/varnish-themes-watcher-stdout---supervisor-NU3qvo.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/varnishd-stderr---supervisor-zsikEW.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor/varnishd-stdout---supervisor-p4ZSGa.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/supervisor/MailHog-stdout---supervisor-vHsYUe.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/supervisor/MailHog-stdout---supervisor-vHsYUe.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +263,7 @@
         <counts>
           <entry key="css" value="8" />
           <entry key="js" value="12" />
-          <entry key="php" value="36" />
+          <entry key="php" value="37" />
           <entry key="scss" value="44" />
           <entry key="twig" value="90" />
         </counts>
@@ -181,7 +272,7 @@
         <counts>
           <entry key="CSS" value="8" />
           <entry key="JavaScript" value="12" />
-          <entry key="PHP" value="36" />
+          <entry key="PHP" value="37" />
           <entry key="SCSS" value="44" />
           <entry key="Twig" value="90" />
         </counts>
@@ -189,17 +280,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="295" />
-          <entry key="php" value="5471" />
+          <entry key="php" value="5494" />
           <entry key="scss" value="4701" />
-          <entry key="twig" value="20144" />
+          <entry key="twig" value="20263" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="295" />
-          <entry key="PHP" value="5471" />
+          <entry key="PHP" value="5494" />
           <entry key="SCSS" value="4701" />
-          <entry key="Twig" value="20144" />
+          <entry key="Twig" value="20263" />
         </counts>
       </usages-collector>
     </session>
@@ -209,8 +300,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/partials/header.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="52" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="52" />
+            <state relative-caret-position="75">
+              <caret line="5" column="87" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="689">
+              <caret line="182" column="20" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -273,7 +373,6 @@
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/templates/ministry.twig" />
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/pages/staff.twig" />
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/pages/page.twig" />
-        <option value="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/functions.php" />
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/sass/atoms/_navigation.scss" />
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/partials/html-header.twig" />
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/base.twig" />
@@ -286,6 +385,7 @@
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/archive-sermons.php" />
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/partials/footer.twig" />
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/pages/sermons.twig" />
+        <option value="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/functions.php" />
         <option value="$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/partials/header.twig" />
       </list>
     </option>
@@ -502,18 +602,17 @@
       <workItem from="1566017215476" duration="216000" />
       <workItem from="1566064692656" duration="749000" />
       <workItem from="1567778718515" duration="42000" />
-      <workItem from="1569520273239" duration="222000" />
+      <workItem from="1569520273239" duration="1706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108761000" />
+    <option name="totallyTimeSpent" value="110245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29756796" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29756796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -526,7 +625,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24199744" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.73239434" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -659,13 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="139" column="49" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -837,10 +929,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="182" column="20" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/public/wp-content/themes/parkwaybaptistchurch/views/partials/header.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="52" />
+        <state relative-caret-position="75">
+          <caret line="5" column="87" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
         </state>
       </provider>
     </entry>

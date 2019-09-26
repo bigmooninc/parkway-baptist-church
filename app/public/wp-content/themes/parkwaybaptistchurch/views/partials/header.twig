@@ -2,7 +2,10 @@
     <div class="fixed bg-white pin-t pin-l container w-screen max-w-full flex flex-wrap justify-between items-center px-5 py-4 shadow-md z-20">
         <a href="{{ site.link }}"><img class="w-64 h-auto" src="{{ theme.link }}/images/ParkwayLogo3.png" /></a>
         <div class="flex justify-end items-center">
-            <a href="#" class="btn btn-red">Give Now</a>
+            {% if options.give_button_text %}
+                <a href="{{ options.give_button_link }}" class="btn btn-red">{{ options.give_button_text }}</a>
+            {% endif %}
+
             <nav class="relative hidden md:flex">
 
                 <ul class="flex list-reset relative">
