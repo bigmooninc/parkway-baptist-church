@@ -26,18 +26,32 @@
         </section>
 
         <section>
-            <div class="container w-full max-w-xl mx-auto flex flex-col md:flex-row pt-20 md:pt-32 pb-24 pl-5 pr-5 md:pl-0 md:pr-0" data-aos="fade-in">
-                <div class="flex flex-col block md:flex-1 mb-10 md:mb-0 mr-0 md:mr-10">
-                    <h3 class="font-medium text-4xl mb-2">We are a church serving God by loving people.</h3>
-                    <p class="font-light text-xl mb-4 leading-tight">Parkway Baptist Church is a Southern Baptist congregation devoted to living out the Great Commission and the Greatest Commandment as a healthy expression of the Body of Christ.</p>
-                    <div>
-                        <a href="/about" class="btn btn-red-transparent">Learn More</a>
-                    </div>
-
+            <div
+            class="container w-full max-w-xl mx-auto flex flex-col md:flex-row pt-20 md:pt-32 pb-24 pl-5 pr-5 md:pl-0 md:pr-0"
+            data-aos="fade-in"
+            >
+            <div class="flex flex-col block md:flex-1 mb-10 md:mb-0 mr-0 md:mr-10">
+                <h3 class="font-medium text-4xl mb-2">
+                {{ post.meta('about_section').header }}
+                </h3>
+                <p class="font-light text-xl mb-4 leading-tight">
+                {{ post.meta('about_section').text }}
+                </p>
+                <div>
+                <a
+                    href="{{ post.meta('about_section').button_link }}"
+                    class="btn btn-red-transparent"
+                    >{{ post.meta('about_section').button_text }}</a
+                >
                 </div>
-                <div class="hidden md:block md:flex-1">
-                    <img src="{{ theme.link }}/images/heart_hands.jpg" class="w-full" />
-                </div>
+            </div>
+            <div class="hidden md:block md:flex-1">
+                <img
+                src="{{ post.get_field('about_section').image }}"
+                class="w-full"
+                alt="Parkway Baptist Biloxi"
+                />
+            </div>
             </div>
         </section>
 
